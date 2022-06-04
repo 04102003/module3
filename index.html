@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Module3-solution</title>
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header>
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+      <div class="food">FOOD,LLC</div>
+
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a href="#home" class="active">FOOD,LLC</a>
+        <div id="myLinks">
+          <a href="#chicken">Chicken</a>
+          <a href="#beef">Beef</a>
+          <a href="#sushi">Sushi</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <h1>Our Menu </h1>
+      <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+        <div class="background">
+          <p class="s1" id="chicken">Chicken</p>
+          <p class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at
+            dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero
+            turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus
+            facilisis semper risus, et efficitur justo suscipit ac.nunc posuere, at dictum massa fermentum. Sed tempor
+            turpis quis dui pharetra, eu suscipit elit cursus.Praesent sed libero turpis.mauris, vestibulum laoreet leo
+            rhoncus ac eu suscipit elit
+          </p>
+        </div>
+      </section>
+      <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+        <div class="background">
+          <p class="s2" id="beef">Beef</p>
+          <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet
+            nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus.
+            Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at
+            facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.consectetur adipiscing elit.
+            Morbi tristique ipsum sit amet
+            nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus.
+            Praesent sed libero turpis.</p>
+        </div>
+      </section>
+      <section class="column-lg-4 colmn-md-12 colmn-sm-12">
+        <div class="background">
+          <p class="s3" id="sushi">Sushi</p>
+          <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet
+            nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus.
+            Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at
+            facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.consectetur adipiscing elit.
+            Morbi tristique ipsum sit amet
+            nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus.
+            Praesent sed libero turpis.</p>
+        </div>
+      </section>
+    </div>
+
+
+
+
+  </header>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
